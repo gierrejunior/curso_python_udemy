@@ -48,7 +48,7 @@ v[1] = 'GR'
 print(d1)
 print(v)
 
-#Porém por ser umq cópia rasa possui as suas limitações, como por exemplo
+# Porém por ser umq cópia rasa possui as suas limitações, como por exemplo
 
 d1 = {1 : 'a', 2 : 'b', 3 : 'c', 4 : ['Gierre', 'junior']}
 v = d1.copy()
