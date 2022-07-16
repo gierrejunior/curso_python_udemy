@@ -60,7 +60,7 @@ if 'naoexiste' in d1:
 
 print('como a chave agora existe, a execuçaõ entrou no if.')
 
-#com o .get evita-se usar o if acima e mesmo assim não dar erro, poi caso não exista a cahve no dicionário, o get retornará o valor None
+# com o .get evita-se usar o if acima e mesmo assim não dar erro, poi caso não exista a cahve no dicionário, o get retornará o valor None
 
 
 print(d1.get('essachavenaoexiste')) #retornará um valor None, pois essa chave não existe
@@ -82,7 +82,7 @@ print(d1['novachave'])
 
 del d1['str'] # apagando a chave str e o valor dela
 
-print(d1.get('str')) #não encontrará a chave e retornará como None
+print(d1.get('str')) # não encontrará a chave e retornará como None
 
 # fazendo varredura pelos valores do dicionário e não pelas chaves
 print(d1)
