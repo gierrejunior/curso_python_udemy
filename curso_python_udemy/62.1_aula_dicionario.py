@@ -53,7 +53,7 @@ print(v)
 d1 = {1 : 'a', 2 : 'b', 3 : 'c', 4 : ['Gierre', 'junior']}
 v = d1.copy()
 
-v[4][0] = 'Uriel' #por ser uma cópia rasa, ele acaba alterando o dicionario do d1 também e não o da copia rasa, issoa contece, com listas, dicionários.
+v[4][0] = 'Uriel' # por ser uma cópia rasa, ele acaba alterando o dicionario do d1 também e não o da copia rasa, issoa contece, com listas, dicionários.
 
 print(v)
 print(d1)
@@ -81,7 +81,7 @@ lista = [
 d1 = dict(lista)
 print(d1)
 
-#funciona tambem dessas outras formas
+# funciona tambem dessas outras formas
 
 lista = (
     ['c1', 1],
@@ -120,7 +120,7 @@ d1.pop('c3') # elimina o item pela chave
 
 print(d1)
 
-d1.popitem() #deleta o ultimo item do dicionario, independente do q seja
+d1.popitem() # deleta o ultimo item do dicionario, independente do q seja
 
 print(d1)
 
