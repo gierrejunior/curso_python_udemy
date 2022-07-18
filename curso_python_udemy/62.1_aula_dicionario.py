@@ -19,10 +19,7 @@ for clientes_k, clientes_v in clientes.items():
     print(f'Exibindo {clientes_k}')
     for dados_k, dados_v in clientes_v.items():
         print(f'\t{dados_k} = {dados_v}') #/t da um tab, facilita a leitura
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
+
 
 
 # atribuir o dicionario a outra váriavel não cria um dicionário novo, na verdade as duas variáveis apontam pro mesmo icionário na memória,
@@ -142,5 +139,3 @@ print(d2)
 
 d1.update(d2)
 print(d1)
->>>>>>> Stashed changes
->>>>>>> curso python
