@@ -14,7 +14,7 @@ print(ex2)
 
 # criar uma tupla, tipo coordenadas com o l1 
 
-ex3 = [[v, v2] for v in l1 for v2 in range(3)] # Equivale a um for dentro d eum for
+ex3 = [[v, v2] for v in l1 for v2 in range(3)] # Equivale a um for dentro de um for
 
 print(ex3)
 
